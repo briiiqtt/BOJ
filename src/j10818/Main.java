@@ -21,7 +21,7 @@ public class Main {
 			list.add(Integer.parseInt(nums[i]));
 		}
 		
-		int max = 0;
+		int max = list.get(0);
 		int min = list.get(0);
 		
 		for(int num : list) {
